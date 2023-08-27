@@ -9,6 +9,8 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 /* navigation bar start */
@@ -43,4 +45,69 @@ body {
   padding-right: 20px;
 }
 
-/* navigation bar end *//*# sourceMappingURL=style.css.map */
+/* navigation bar end */
+/* hero section start */
+.hero_section {
+  display: flex;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+  padding: 45px 30px 75px 30px;
+}
+.hero_section .info_section {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+.hero_section .info_section .button_section {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  position: relative;
+  padding-top: 60px;
+  z-index: 3;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.hero_section .info_section .button_section i {
+  background-color: white;
+  color: #00C6A9;
+  font-size: 4rem;
+}
+.hero_section .info_section .text_section h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.hero_section .info_section .text_section h3 span {
+  color: #00c6a9;
+}
+.hero_section .info_section .text_section p {
+  color: #6d6d6d;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.hero_section .info_section .text_section a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #252525;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.hero_section .img_section {
+  flex: 1;
+  margin: 10px;
+  padding: 0 15px;
+}
+.hero_section .img_section img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border-style: none;
+}
+
+/* hero section end *//*# sourceMappingURL=style.css.map */
