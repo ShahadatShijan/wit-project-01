@@ -244,4 +244,72 @@ body {
   text-decoration: none;
 }
 
-/* about section end *//*# sourceMappingURL=style.css.map */
+/* about section end */
+/* treatment section start*/
+.treatment_section {
+  padding: 90px 0;
+}
+.treatment_section .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.treatment_section .container .container_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 0.5rem;
+  line-height: 1.2;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.treatment_section .container .container_header h2 {
+  font-size: 1.8rem;
+}
+.treatment_section .container .container_header h2 span {
+  color: #00c6a9;
+}
+.treatment_section .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 30px;
+}
+.treatment_section .container .row .col {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.treatment_section .container .row .col .box {
+  margin-top: 45px;
+}
+.treatment_section .container .row .col .box .image_box {
+  width: 65px;
+}
+.treatment_section .container .row .col .box .detail_box {
+  margin-top: 15px;
+}
+.treatment_section .container .row .col .box .detail_box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.treatment_section .container .row .col .box .detail_box p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.treatment_section .container .row .col .box .detail_box a {
+  text-transform: uppercase;
+  color: #00c6a9;
+  text-decoration: none;
+}
+
+/* treatment section start*//*# sourceMappingURL=style.css.map */
