@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #00C6A9;
+    width: 100%;
 
     .navbar_logo {
         padding: 10px 40px;
@@ -183,18 +184,21 @@ body {
                 margin-right: -5px;
                 margin-left: -5px;
                 width: 100%;
+
                 .form_group {
                     padding-right: 5px;
                     padding-left: 5px;
                     margin-bottom: 1rem;
                     flex: 33.333333%;
-                    label{
+
+                    label {
                         display: inline-block;
                         margin-bottom: 0.5rem;
                         font-size: 1rem;
                         line-height: 1.5;
                     }
-                    .form_control{
+
+                    .form_control {
                         width: 100%;
                         background-color: transparent;
                         border: 1px solid #00c6a9;
@@ -206,7 +210,8 @@ body {
                         padding: 0 15px;
                     }
                 }
-                #button{
+
+                #button {
                     background-color: #252525;
                     color: #ffffff;
                     padding: 10px 45px;
@@ -215,7 +220,8 @@ body {
                     text-transform: uppercase;
                     font-weight: 400;
                 }
-                & #button:hover{
+
+                & #button:hover {
                     cursor: pointer;
                 }
             }
@@ -224,3 +230,66 @@ body {
 }
 
 /* book section end */
+
+/* about section start */
+
+.about_section {
+    display: block;
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            align-items: center;
+
+            .col_6 {
+                flex: 0 0 50%;
+                max-width: 50%;
+                position: relative;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+
+            .details_section {
+                h2 {
+                    position: relative;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    margin-bottom: .5rem;
+                    line-height: 1.2;
+
+                    span {
+                        color: #00c6a9;
+                    }
+                }
+
+                p {
+                    color: #999;
+                    margin-top: 15px;
+                    margin-bottom: 1rem;
+                }
+
+                a {
+                    display: inline-block;
+                    padding: 10px 45px;
+                    background-color: #252525;
+                    color: #ffffff;
+                    border-radius: 5px;
+                    margin-top: 15px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+/* about section end */

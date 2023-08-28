@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #00C6A9;
+  width: 100%;
 }
 .navbar .navbar_logo {
   padding: 10px 40px;
@@ -191,4 +192,56 @@ body {
   cursor: pointer;
 }
 
-/* book section end *//*# sourceMappingURL=style.css.map */
+/* book section end */
+/* about section start */
+.about_section {
+  display: block;
+}
+.about_section .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about_section .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+}
+.about_section .container .row .col_6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.about_section .container .row .details_section h2 {
+  position: relative;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+.about_section .container .row .details_section h2 span {
+  color: #00c6a9;
+}
+.about_section .container .row .details_section p {
+  color: #999;
+  margin-top: 15px;
+  margin-bottom: 1rem;
+}
+.about_section .container .row .details_section a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #252525;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+/* about section end *//*# sourceMappingURL=style.css.map */
