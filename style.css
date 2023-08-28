@@ -110,4 +110,85 @@ body {
   border-style: none;
 }
 
-/* hero section end *//*# sourceMappingURL=style.css.map */
+/* hero section end */
+/* book section start */
+.book_section {
+  padding: 90px 0;
+}
+.book_section .form_section {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.book_section .form_section form {
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+  padding: 35px 45px;
+  display: block;
+  margin-top: 0em;
+}
+.book_section .form_section form h4 {
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 35px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+}
+.book_section .form_section form h4 span {
+  color: #00c6a9;
+}
+.book_section .form_section form h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  height: 2px;
+  background-color: #00c6a9;
+}
+.book_section .form_section form .form_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  width: 100%;
+}
+.book_section .form_section form .form_row .form_group {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 1rem;
+  flex: 33.333333%;
+}
+.book_section .form_section form .form_row .form_group label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.book_section .form_section form .form_row .form_group .form_control {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #00c6a9;
+  height: 45px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+.book_section .form_section form .form_row #button {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.book_section .form_section form .form_row #button:hover {
+  cursor: pointer;
+}
+
+/* book section end *//*# sourceMappingURL=style.css.map */
