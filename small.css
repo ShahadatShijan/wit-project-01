@@ -52,4 +52,24 @@
     display: block;
 }
 
-/*/ book section end */
+/* book section end */
+
+/* about section start */
+
+.about_section .container .row{
+    display: block;
+    width: 100%;
+}
+.about_section .container .row .col_6{
+    max-width: 100%;
+}
+.about_section .container .row .image_section img{
+    width: 100%;
+}
+
+/* about section end */
+
+
+
+
+
