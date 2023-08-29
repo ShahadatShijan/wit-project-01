@@ -1,5 +1,5 @@
 
-
+/* navigation section start */
 .navbar {
     display: block;
     background-color: white;
@@ -22,4 +22,20 @@
 }
 .navbar .navbar_menu ul li:hover{
     background-color: blue;
+}
+/* navigation section end */
+
+/* hero section start */
+.hero_section{
+    display: block;
+    text-align: center;
+}
+
+.hero_section .info_section .button_section {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.hero_section .img_section img{
+    width: 100%;
 }
