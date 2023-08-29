@@ -113,11 +113,18 @@
     width: 100%;
     float: left;
     text-align: center;
+    margin-bottom: 30px;
     background-color: #252525;
 }
 
-
-
 /* address section end */
+
+/* footer section start */
+.footer_section{
+    display: block;
+    text-align: center;
+}
+
+/* footer section end */
 
 
