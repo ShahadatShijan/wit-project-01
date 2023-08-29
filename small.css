@@ -83,6 +83,7 @@
 /* contact section start */
 .contact_section .container .row{
     display: block;
+    width: 100%;
 }
 .contact_section .container .row .form_container{
     max-width: 100%;
@@ -93,6 +94,30 @@
 
 /* contact section end */
 
+/* address section start */
 
+.address_section{
+    padding: 10px 0;
+}
+.address_section .container {
+    display: block;
+
+}
+
+.address_section .container .map iframe{
+    width: 100%;
+    height: 250px
+}
+
+.address_section .container .address_container{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #252525;
+}
+
+
+
+/* address section end */
 
 
