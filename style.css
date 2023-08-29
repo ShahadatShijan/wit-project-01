@@ -312,4 +312,83 @@ body {
   text-decoration: none;
 }
 
-/* treatment section start*//*# sourceMappingURL=style.css.map */
+/* treatment section start */
+/* contact section start */
+.contact_section {
+  padding-bottom: 90px;
+}
+.contact_section .container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.contact_section .container .container_header {
+  margin-bottom: 25px;
+}
+.contact_section .container .container_header h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.contact_section .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.contact_section .container .row .form_container {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 45px;
+}
+.contact_section .container .row .form_container input {
+  width: 100%;
+  border: 1px solid #00c6a9;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #101010;
+}
+.contact_section .container .row .form_container textarea {
+  resize: none;
+  height: 120px;
+  width: 100%;
+  border: 1px solid #00c6a9;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.contact_section .container .row .form_container input::-moz-placeholder, .contact_section .container .row .form_container textarea::-moz-placeholder {
+  color: #00C6A9;
+  font-size: 1rem;
+}
+.contact_section .container .row .form_container input::placeholder, .contact_section .container .row .form_container textarea::placeholder {
+  color: #00C6A9;
+  font-size: 1rem;
+}
+.contact_section .container .row .form_container button {
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 65px;
+  background-color: #00c6a9;
+  color: #ffffff;
+  border-radius: 0;
+  font-weight: bold;
+}
+.contact_section .container .row .form_container .image_container {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* contact section end *//*# sourceMappingURL=style.css.map */

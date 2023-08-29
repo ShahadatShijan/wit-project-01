@@ -375,4 +375,92 @@ body {
     }
 }
 
-/* treatment section start*/
+/* treatment section start */
+
+/* contact section start */
+.contact_section {
+    padding-bottom: 90px;
+
+    .container {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: 15px;
+        margin-left: 15px;
+
+        .container_header {
+            margin-bottom: 25px;
+
+            h2 {
+                font-weight: bold;
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+
+            .form_container {
+                flex: 0 0 58.333333%;
+                max-width: 58.333333%;
+                position: relative;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: 45px;
+
+                input {
+                    width: 100%;
+                    border: 1px solid #00c6a9;
+                    height: 50px;
+                    margin-bottom: 25px;
+                    padding-left: 15px;
+                    background-color: transparent;
+                    outline: none;
+                    color: #101010;
+                }
+
+                textarea {
+                    resize: none;
+                    height: 120px;
+                    width: 100%;
+                    border: 1px solid #00c6a9;
+                    padding: 15px;
+                    margin-bottom: 25px;
+                }
+
+                & input::placeholder,
+                & textarea::placeholder {
+                    color: #00C6A9;
+                    font-size: 1rem;
+                }
+
+                button {
+                    border: none;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    padding: 15px 65px;
+                    background-color: #00c6a9;
+                    color: #ffffff;
+                    border-radius: 0;
+                    font-weight: bold
+                }
+
+                .image_container {
+                    flex: 0 0 41.666667%;
+                    max-width: 41.666667%;
+                    width: 100%;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+
+}
+
+/* contact section end */
