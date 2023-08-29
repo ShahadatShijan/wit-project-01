@@ -69,6 +69,16 @@
 
 /* about section end */
 
+/* treatment section start */
+
+.treatment_section .container .row{
+    display: block;
+}
+.treatment_section .container .row .col {
+    max-width: 100%;
+}
+
+/* treatment section end */
 
 
 
