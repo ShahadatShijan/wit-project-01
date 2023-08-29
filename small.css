@@ -39,3 +39,17 @@
 .hero_section .img_section img{
     width: 100%;
 }
+
+/* hero section end */
+
+/* book section start */
+
+.book_section{
+    text-align: left;
+}
+
+.book_section .form_section form .form_row {
+    display: block;
+}
+
+/*/ book section end */
