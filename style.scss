@@ -517,3 +517,24 @@ body {
 }
 
 /* address section end */
+
+/* footer section start */
+.footer_section{
+    display: flex;
+    justify-content: center;
+    background-color: #00C6A9;
+    p{
+        padding: 30px;
+        color: white;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        & a:hover{
+            color: blue;
+        }
+    }
+}
+
+
+/* footer section end */

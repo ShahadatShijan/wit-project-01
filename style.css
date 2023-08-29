@@ -434,4 +434,23 @@ body {
   color: white;
 }
 
-/* address section end *//*# sourceMappingURL=style.css.map */
+/* address section end */
+/* footer section start */
+.footer_section {
+  display: flex;
+  justify-content: center;
+  background-color: #00C6A9;
+}
+.footer_section p {
+  padding: 30px;
+  color: white;
+}
+.footer_section p a {
+  text-decoration: none;
+  color: white;
+}
+.footer_section p a:hover {
+  color: blue;
+}
+
+/* footer section end *//*# sourceMappingURL=style.css.map */
