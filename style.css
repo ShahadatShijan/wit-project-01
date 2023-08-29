@@ -402,13 +402,13 @@ body {
   display: flex;
 }
 .address_section .container .map {
-  width: 66.66%;
+  flex: 66.66%;
   height: 250px;
   margin: 20px;
 }
 .address_section .container .address_container {
-  width: 33.33%;
-  float: right;
+  flex: 33.33%;
+  /* float: right; */
 }
 .address_section .container .address_container h3 {
   font-size: 1.5rem;
