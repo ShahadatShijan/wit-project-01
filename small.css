@@ -80,6 +80,19 @@
 
 /* treatment section end */
 
+/* contact section start */
+.contact_section .container .row{
+    display: block;
+}
+.contact_section .container .row .form_container{
+    max-width: 100%;
+}
+.contact_section .container{
+    margin-left: 0px;
+}
+
+/* contact section end */
+
 
 
 
