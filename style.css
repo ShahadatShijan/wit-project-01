@@ -391,4 +391,47 @@ body {
   padding-left: 15px;
 }
 
-/* contact section end *//*# sourceMappingURL=style.css.map */
+/* contact section end */
+/* address section start */
+.address_section {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 20px;
+}
+.address_section .container {
+  display: flex;
+}
+.address_section .container .map {
+  width: 66.66%;
+  height: 250px;
+  margin: 20px;
+}
+.address_section .container .address_container {
+  width: 33.33%;
+  float: right;
+}
+.address_section .container .address_container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.address_section .container .address_container address {
+  padding: 20px 0;
+  line-height: 1.5;
+}
+.address_section .container .address_container address i {
+  line-height: 1.5;
+}
+.address_section .container .address_container address a {
+  text-decoration: none;
+  color: white;
+}
+.address_section .container .address_container .social_media {
+  font-size: 2rem;
+}
+.address_section .container .address_container .social_media i {
+  color: white;
+}
+
+/* address section end *//*# sourceMappingURL=style.css.map */

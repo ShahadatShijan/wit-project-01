@@ -464,3 +464,56 @@ body {
 }
 
 /* contact section end */
+
+/* address section start */
+
+.address_section {
+    background-color: #252525;
+    color: #ffffff;
+    padding: 20px;
+
+
+    .container {
+        display: flex;
+
+        .map {
+            
+            width: 66.66%;
+            height: 250px;
+            margin: 20px;
+        }
+
+        .address_container {
+            width: 33.33%;
+            float: right;
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: .5px;
+                padding: 20px;
+                text-transform: uppercase;
+            }
+
+            address {
+               padding: 20px 0;
+               line-height: 1.5;
+               i{
+                line-height: 1.5;
+               }
+               a{
+                text-decoration: none;
+                color: white;
+               }
+            }
+            .social_media{
+                font-size: 2rem;
+                i{
+                    color: white;
+                }
+                
+            }
+        }
+    }
+
+}
+
+/* address section end */
