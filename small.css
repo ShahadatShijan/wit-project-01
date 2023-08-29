@@ -1,0 +1,25 @@
+
+
+.navbar {
+    display: block;
+    background-color: white;
+}
+.navbar .navbar_logo{
+    margin: 0;
+    text-align: center;
+}
+.navbar .navbar_menu ul{
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+.navbar .navbar_menu ul li{
+    margin: 5px;
+    background-color: #00C6A9;
+    padding: 20px;
+    border-radius: 5px;
+}
+.navbar .navbar_menu ul li:hover{
+    background-color: blue;
+}
